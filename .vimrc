@@ -18,7 +18,10 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdtree'
 Plugin 'mattn/emmet-vim'
 Plugin 'vim-airline/vim-airline'
+<<<<<<< HEAD
 Plugin 'majutsushi/tagbar'
+=======
+>>>>>>> 853ee1e988e70ec912ec09ab4945036ad3242b77
 Plugin 'vim-airline/vim-airline-themes'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -60,6 +63,7 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set smarttab
+<<<<<<< HEAD
 set autoindent
 set vb
 set nu
@@ -70,3 +74,5 @@ filetype plugin indent on
 
 " tagbar
 nmap <F8> :TagbarToggle<CR>
+=======
+>>>>>>> 853ee1e988e70ec912ec09ab4945036ad3242b77
